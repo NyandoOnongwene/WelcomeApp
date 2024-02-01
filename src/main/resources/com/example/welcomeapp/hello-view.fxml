@@ -22,27 +22,27 @@
          <children>
             <ImageView fitHeight="330.0" fitWidth="200.0" layoutX="33.0" layoutY="22.0">
                <image>
-                  <Image url="@../../../../../../../../Downloads/beautiful-vertical-shot-eiffel-tower-bright-blue-sky.jpg" />
+                  <Image url="@Images/Images/beautiful-vertical-shot-eiffel-tower-bright-blue-sky.jpg" />
                </image>
             </ImageView>
-         
-                      <Label fx:id="welcomeText" layoutX="400.0" layoutY="378.3999938964844" />
              <Button layoutX="459.0" layoutY="567.0" onAction="#onHelloButtonClick" text="Hello!" />
             <ImageView fitHeight="330.0" fitWidth="200.0" layoutX="483.0" layoutY="22.0">
                <image>
-                  <Image url="@../../../../../../../../Downloads/Statue%20of%20Liberty.jpeg" />
+                  <Image url="@Images/Images/Big Ben Clock tower.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="330.0" fitWidth="200.0" layoutX="257.0" layoutY="22.0">
                <image>
-                  <Image url="@../../../../../../../../Downloads/Big%20Ben%20Clock%20tower.jpg" />
+                  <Image url="@Images/Images/Statue of Liberty.jpeg" />
                </image>
             </ImageView>
             <ImageView fitHeight="330.0" fitWidth="200.0" layoutX="713.0" layoutY="22.0">
                <image>
-                  <Image url="@../../../../../../../../Downloads/Leaning%20Tower%20of%20Pisa.jpeg" />
+                  <Image url="@Images/Images/Leaning Tower of Pisa.jpeg" />
                </image>
             </ImageView>
+
+            <Label fx:id="welcomeText" layoutX="400.0" layoutY="378.3999938964844" />
             <Label layoutX="70.0" layoutY="369.0" onMouseClicked="#onHelloButtonClick" text="The Eiffel Tower of Paris" />
             <Label layoutX="755.0" layoutY="370.0" text="Leaning Tower of Pisa" />
             <Label layoutX="512.0" layoutY="370.0" text="Statue of Liberty, USA" />
